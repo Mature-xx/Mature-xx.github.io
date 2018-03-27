@@ -1,50 +1,201 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="calc.css">
-	<title>网页计算器</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="image/tubiao.ico" media="screen" />
+	<title>个人主页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/Normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-     <table id="calculater" onclick="calculater()">
-     	<tr>
-     		<td id="display" colspan="5">0</td>
-     	</tr>
-     	<tr>
-     		<td>1</td>
-     		<td>2</td>
-     		<td>3</td>
-     		<td>+</td>
-     		<td>c</td>
-     	</tr>
-     	<tr>
-     		<td>4</td>
-     		<td>5</td>
-     		<td>6</td>
-     		<td>-</td>
-     		<td>ce</td>
-     	</tr>
-     	<tr>
-     		<td>7</td>
-     		<td>8</td>
-     		<td>9</td>
-     		<td>*</td>
-     		<td rowspan="3" id="equality" onclick="calcresult()">=</td>
-     	</tr>
-     	<tr>
-     		<td>%</td>
-     		<td>0</td>
-     		<td>.</td>
-     		<td>/</td>
-     	</tr>
-     	<tr>
-     		<td>(</td>
-     		<td>)</td>
-     		<td>二</td>
-     		<td>十六</td>
-     	</tr>
-     </table>
+<div class="main-wrapper">
 	
+	<header>
+		<nav>
+			<div class="logo">
+				<a href="">Mature-xx(没有适配移动端QAQ)</a>
+			</div>
+			<ul>
+				<li>
+					<a href="" class="button">
+					<span class="line line-top"></span>
+					<span class="line line-right"></span>
+					<span class="line line-bottom"></span>
+					<span class="line line-left"></span>
+					首页</a>
+				</li>
+				<li>
+					<a id="skillbtn" class="button">
+					<span class="line line-top"></span>
+					<span class="line line-right"></span>
+					<span class="line line-bottom"></span>
+					<span class="line line-left"></span>
+					专业技能</a>
+					</li>
+				<li>
+					<a id="workbtn" class="button">
+					<span class="line line-top"></span>
+					<span class="line line-right"></span>
+					<span class="line line-bottom"></span>
+					<span class="line line-left"></span>
+				工作经历</a>
+				</li>	
+				<li>
+					<a id="itembtn" class="button">
+					<span class="line line-top"></span>
+					<span class="line line-right"></span>
+					<span class="line line-bottom"></span>
+					<span class="line line-left"></span>
+					项目经验</a>
+				</li>
+				<li>
+					<a id="sidebar_trigger" class="button">
+					<span class="line line-top"></span>
+					<span class="line line-right"></span>
+					<span class="line line-bottom"></span>
+					<span class="line line-left"></span>
+					联系我</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div class="content content-first">
+		<section>
+			<div>
+				<ul class="link-group">
+					<li><a class="link-github" target="_blank" href="https://github.com/Mature-xx"></a></li>
+					<li><a href="#" class="link-img" ></a></li>
+				</ul>
+			</div>
+			<div class="information">
+				<ul class="name">
+					<li>姓名|</li>
+					<li>籍 贯|</li>
+					<li>学 历|</li>
+					<li>学校|</li>
+					<li>专 业|</li>
+					<li>毕业时间|</li>
+					<li>手机|</li>
+					<li>职 位|</li>
+					<li>邮 箱|</li>		
+				</ul>
+				<ul class="value">
+					<li>薛项中</li>
+					<li>山西</li>
+					<li>本科</li>
+					<li>天津理工大学</li>
+					<li>计算机科学与技术</li>
+					<li>2018-06</li>
+					<li>18142215835</li>
+					<li>web前端工程师</li>
+					<li>535409277@qq.com</li>
+				</ul>
+				<div class="introduce">
+					<p>本人自学能力较强，喜与人沟通交流，善于听取别人的意见和建议。工作认真负责,不推卸责任；能承受工作中的压力，服从性好,能与上司保持良好的沟通，尊重上司的安排； 
+为人诚实正直，性格较慢热，踏实耐劳，仔细认真，且好学上进,能不断提高工作能力。</p>
+					
+				</div>
+
+			</div>
+		</section>
+
+	</div>
+
+	<div class="content content-second">
+		<section>
+			<h2>专业技能</h2>
+			<ul>
+				<li>前端</li>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>jQuery</li>
+				<li>BootStrap<p>会简易使用</p></li>
+			</ul>
+			<ul>
+				<li>后端</li>
+				<li>SQL sever</li>
+				<li>mysql</li>
+				<li>了解node.js</li>
+			</ul>
+			<ul>
+				<li>其它</li>
+				<li>git基础操作</li>
+				<li>办公文档的使用</li>
+			</ul>
+		</section>
+	</div>
+
+	<div class="content content-third">
+	<section>
+	<h2>工作经历</h2>
+		<ul>
+			<li>2016.04 - 2016.05</li>
+			<li>2017.10 - 2017.12</li>
+		</ul>
+		<div class="timeline"></div>
+		<ul>
+			<li>天津中软国际
+			</li>
+			<li>天津咔哒爸爸教育科技有限公司
+			</li>
+			<li>初步html/css/js网页开发</li>
+			<li>机器编程教育培训服务</li>
+		</ul>
+	</section>
+	</div>
+
+ 	<div class="content content-fourth">
+		<section class="item-group">
+			<h2>项目经验</h2>
+			<span>
+				<a href="https://github.com/Mature-xx/-IFE2017/" target="_blank">
+				<div class="item1">百度IFE</div>
+				<h3><a href="https://github.com/Mature-xx/-IFE2017">自行参与百度前端技术学院，并完成其中的两个学院</a></h3>
+				</a>
+			</span>
+
+			<span>
+				<a>
+				<div class="item2">dotamax</div>
+				<h3><a href="">与小组同学合力开发，精仿dotamax网站</a></h3>
+				</a>
+			</span>
+
+		<span>
+				<a>
+				<div class="item3">jQuery购物界面</div>
+				<h3><a href="https://github.com/Mature-xx/practice">学习jQuery，编写出购物商城界面</a></h3>
+				</a>
+			</span> 
+		</section>
+	</div> 
+
+	<footer>
+		<ul class="share-group">
+			<li><a target="_blank" href="https://github.com/Mature-xx">github</a></li>
+			<li><a target="_blank" href="https://www.freecodecamp.cn/mature-xx">freecodecamp</a></li>
+		</ul>
+		<div class="copy">
+			&copy Mature-xx 2018.3
+		</div>
+	</footer>
+</div>
+
+<div id="mask"> </div>
+	<div id="sidebar">
+		<ul>
+			<li><a target="_blank" href="https://github.com/Mature-xx">github</a></li>
+			<li><a>邮箱:
+			535409277@qq.com</a></li>
+			<li><a>手机:18142215835</a></li>
+		</ul>
+	</div>
+	
+<button class="back-to-top">返回顶部</button>
+<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
-<script type="text/javascript" src="calc.js"></script>
